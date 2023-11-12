@@ -41,7 +41,7 @@
 
 .banner-section {
   padding: 100px;
-  background: url(banner-bg.jpg);
+  background: url(img/banner-bg.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -88,11 +88,47 @@
 }
 
 .footer {
-  background: url(footer-bg.jpg);
+  background: url(img/footer-bg.jpg);
   background-size: cover;
   padding: 100px 0px;
 }
 
 .copyright {
   color: white;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-logo {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
 }
